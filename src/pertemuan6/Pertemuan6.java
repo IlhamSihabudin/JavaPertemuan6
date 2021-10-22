@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pertemuan6;
+
+import javax.swing.SwingUtilities;
+import viewer.MasterMahasiswa;
+
+/**
+ *
+ * @author Ilham Sihabudin
+ */
+public class Pertemuan6 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+
+	    public void run() {
+		new MasterMahasiswa().setVisible(true);
+	    }
+	});
+    }
+    
+}
